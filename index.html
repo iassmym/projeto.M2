@@ -1,0 +1,60 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRO DE CLIENTES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="intro">
+    <p>CLIENTES QUERIDAS</p>
+</div>
+    <div class="container">
+        <h1>CADRASTRO DE CLIENTES</h1>
+        <form id="formCadastro">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+
+        <h2>CLIENTES CADASTRADAS:</h2>
+        <ul id="listaUsuarios"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>Queridas Clientes</p>
+
+    <div class="container">
+        <h1>Cadastro de Clientes</h1>
+
+        <form id="formCadastro" enctype="multipart/form-data">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="email" id="email" placeholder="E-mail" required>
+            <input type="number" id="idade" placeholder="Idade" required>
+            <input type="file" id="foto" required>
+            <button type="submit">Cadastrar Cliente</button>
+        </form>
+
+        <h2>Clientes Cadastrados:</h2>
+        <ul id="listaClientes"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
