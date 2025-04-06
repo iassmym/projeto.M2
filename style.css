@@ -65,12 +65,20 @@ li {
     padding: 5px 0;
     border-bottom: 1px solid #ccc;
 }  */
-
-
-.p {
-    width: 200px;
-    
+.entrada {
+    background-color: #ffe0f0;
+    padding: 10px 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: #c2185b;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+
+
+
+
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #e4a6ca;
