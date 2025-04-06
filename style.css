@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh;
+    height: 110vh;
 }
 
 .container {
@@ -70,7 +70,7 @@ ul {
 
 li {
     padding: 8px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #d4bcd0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,19 +93,19 @@ button.edit, button.delete {
 }
 
 button.edit {
-    background-color: #007bff;
-    color: white;
+    background-color: #0004e2;
+    color: rgb(218, 158, 193);
 }
 
 button.delete {
-    background-color: #dc3545;
-    color: white;
+    background-color: #ff0000;
+    color: rgb(218, 158, 193);
 }
 
 button.edit:hover {
-    background-color: #0056b3;
+    background-color: #0004e2;
 }
 
 button.delete:hover {
-    background-color: #c82333;
+    background-color: #ff0000;
 }

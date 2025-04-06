@@ -47,12 +47,12 @@ function atualizarListaClientes() {
         const texto = document.createElement('span');
         texto.textContent = cliente.exibir();
         const btnEditar = document.createElement('button');
-        btnEditar.textContent = 'edite algo';
+        btnEditar.textContent = 'edite';
         btnEditar.classList.add('edit');
         btnEditar.onclick = () => editarCliente(index);
 
         const btnExcluir = document.createElement('button');
-        btnExcluir.textContent = 'exclua algo';
+        btnExcluir.textContent = 'exclua';
         btnExcluir.classList.add('delete');
         btnExcluir.onclick = () => excluirCliente(index);
 
