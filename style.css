@@ -1,86 +1,21 @@
-/* .intro {
-    background-color: #e4a6ca;
-    font-style: oblique;
-    display:flex;
-    justify-content:right;
-    align-items: first baseline;
-    height: 200vh;  
-
-}
-body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #e4a6ca;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200vh;
-}
-
-.container {
-    background-color: white;
-    padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-}
-
-h1 {
-    text-align: center;
-    color: #333;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    margin: 8px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px;
-    background-color: #d732e6;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #c926c1;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
-}  */
 .entrada {
-    background-color: #ffe0f0;
-    padding: 10px 20px;
+    background-color: #f3c9df;
+    padding: 20px 30px;
     border-radius: 12px;
     margin-bottom: 15px;
     text-align: center;
     font-weight: bold;
-    color: #c2185b;
+    color: #000000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-family: 'Pacifico', cursive;
+    box-shadow: 0 4px 8px#2c2727;
+
+
 }
 
 
-
-
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:  'Monoton', cursive;
     background-color: #e4a6ca;
     margin: 0;
     padding: 0;
@@ -91,16 +26,16 @@ body {
 }
 
 .container {
-    background-color: white;
+    background-color: rgb(255, 221, 240);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px#000000;
     width: 400px;
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #000000;
 }
 
 form {
@@ -118,7 +53,7 @@ input {
 button {
     padding: 10px;
     background-color: #d732e6;
-    color: white;
+    color: rgb(224, 169, 201);
     border: none;
     border-radius: 4px;
     cursor: pointer;
