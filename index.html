@@ -1,29 +1,21 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Clientes</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ProjetoFinalM2</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="container">
-        <div class="entrada">
-            <p>Queridas clientes; nós do salão Luna criamos esse site de cadastro para melhor atende-las, sintam-se acolhidas! Estamos felizes por tê-las aqui! 💖</p>
-        </div>
-        <h1>Cadastro de Clientes</h1>
-        <form id="formCadastro" enctype="multipart/form-data">
-            <input type="text" id="nome" placeholder="Nome" required>
-            <input type="email" id="email" placeholder="E-mail" required>
-            <input type="number" id="idade" placeholder="Idade" required>
-            <input type="file" id="foto" required>
-            <button type="submit">Cadastrar Cliente</button>
-        </form>
-
-        <h2>Clientes Cadastrados:</h2>
-        <ul id="listaClientes"></ul>
+  <div class="app">
+    <h1>Quiz</h1>
+    <div class="quiz">
+      <h2 id="question">Pergunta aparecerá aqui</h2>
+      <div id="answer-buttons"></div>
+      <button id="next-btn">Próxima</button>
     </div>
+  </div>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
